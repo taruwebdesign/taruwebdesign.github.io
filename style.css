@@ -1,0 +1,256 @@
+body,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+	font-family: "Jost", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 1.5rem;
+}
+
+.rubik-logo {
+	color: black;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-family: "Rubik", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.rubik-logo a {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar-links {
+	list-style: none;
+	display: flex;
+	gap: 1.5rem;
+	margin-right: 1rem;
+}
+
+.navbar-links li {
+	display: inline;
+}
+
+
+.navbar-links a {
+	text-decoration: none;
+	font-size: 1rem;
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.jost-font {
+	font-family: "Jost", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+#landing {
+	height: 80vh;
+	color: white;
+	background: #001099;
+	background: -o-linear-gradient(305deg, #001099 0, #3ad9ff 96%);
+	background: linear-gradient(145deg, #001099 0, #3ad9ff 96%);
+}
+
+
+
+h1 {
+	font-size: 2.7rem;
+	margin: 0px;
+}
+
+.intro {
+	width: 45%;
+	padding-bottom: 2rem;
+}
+
+.container {
+	position: relative;
+	padding: 2rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+
+.landing-image {
+	position: absolute;
+	width: 40%;
+	right: 5rem;
+	top: 4rem;
+	display: block;
+	float: right;
+}
+
+.contact-button {
+	background-color: white;
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	border: none;
+	color: black;
+	padding: 0.75rem;
+	text-align: center;
+	margin-top: 0.75rem;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#about {
+	color: black;
+	text-align: center;
+	height: auto;
+}
+
+#contact {
+	text-align: center;
+	height: auto;
+	color: black;
+}
+
+#contact a {
+	text-decoration: none;
+	font-size: 1rem;
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	color: black;
+}
+
+footer {
+	background: #001099;
+	background: -o-linear-gradient(305deg, #001099 0, #3ad9ff 96%);
+	background: linear-gradient(145deg, #001099 0, #3ad9ff 96%);
+	color: white;
+	text-align: center;
+	padding: 1rem;
+
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+
+}
+
+.footer-item {
+	text-align: center;
+	margin: auto;
+}
+
+.footer-item a {
+	text-decoration: none;
+	font-size: 1rem;
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	color: white;
+}
+
+
+.gradient-text {
+	  background: -webkit-linear-gradient(145deg, #001099 0, #3ad9ff 96%);
+	  background-clip: text;
+	  -webkit-text-fill-color: transparent;
+
+}
+
+.info-para {
+	width: 60%;
+	margin: 0 auto 3rem;
+}
+
+
+
+.custom-shape-divider-bottom-1718785155 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1718785155 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 220px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1718785155 .shape-fill {
+	fill: #FFFFFF;
+}
+
+.about-info {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	
+}
+
+.info-item {
+	padding: 1rem 1rem;
+	margin: 2rem auto;
+	width: 20%;
+	background-color: #f7f7f7;
+	border-radius: 25px;
+}
+
+
+.info-item img {
+	width: 10rem;
+	height: auto;
+}
+
+
+
+@media (max-width: 600px) {	
+	.navbar {
+		flex-direction: column;
+		align-items: flex-center;
+	}
+
+	.navbar-links {
+		flex-direction: column;
+		gap: 0.5rem;
+		margin-top: 1rem;
+	}
+
+	.landing-image {
+		position: relative;
+		top: 5vh;
+		right: 0;
+		width: 70vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#landing {
+		height: 170vh;
+	}
+
+	.info-item {
+		width: 100%
+	}
+}
